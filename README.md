@@ -14,7 +14,11 @@ The objective of this pair assignment is to:
 
 
 ####Instructions
-This repository contains two R codes, structed as follows
+This repository contains two R codes, structed as follows:
+
+1. Sets the working directory
+2. Loads a R core Data base
+3.
 
 
 
