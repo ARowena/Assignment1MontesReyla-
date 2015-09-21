@@ -5,10 +5,10 @@ This repository is created to perform Assigment 1 for the course introduction to
 
 The objective of this pair assignment is to:
 
-1. Create a new public GitHub repository to learn how to use GitHub as an element and for collaborative research
-2. Understand basic R structures, code and transformations
-3. To implement version controls
-4. To develop an understand of new file structres
+1. Create a new public GitHub repository to learn how to use GitHub as an element and for collaborative research;
+2. Understand basic R structures, code and transformations;
+3. To implement version controls;
+4. To develop an understand of new file structres;
 
 
 ####Instructions
