@@ -1,6 +1,7 @@
 [<img src="https://www.hertie-school.org/uploads/pics/HSG_Logo_rgb_33c6f5.jpg" align="right" height="140" width ="205"/>](http://www.hertie-school.org/)
-
+<i><u>
 #MPP-E1180: Introduction to Collaborative Social Science Data Analysis
+</i></u>
 ###First Pair Assignment: Ana Cecilia Montes and Ayra Rowena Reyla 
 ####Introduction and Background Information
 This repository is created to perform Assigment 1 for the course introduction to MPP_1180: Collaborative Social Science Data Analysis at Hertie School of Govermance, taught by Prof. Dr. Christopher Gandrud. 
