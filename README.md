@@ -2,3 +2,6 @@
 ###First Pair Assignment: Ana Cecilia Montes and Ayra Rowena Reyla 
 ###Introduction and Background Information
 
+
+###Instructions
+###Software
