@@ -21,7 +21,7 @@ This repository contains two R codes, structed as follows:
 3. Loads a R core Data Set, 
 4. Conducts Descrive statistics.
 
-The choosen data sets are: "Seatbelts" and "UKDriverDeaths" and their analysis was performed using the logic described above. 
+The choosen data sets are: "Loblolly" and "Trees" and their analysis was performed using the logic described above. 
 
 ####Software
 
