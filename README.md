@@ -13,9 +13,7 @@ The objective of this pair assignment is to:
 3. To implement version controls
 4. To develop an understand of new file structres
 
-<u>
 ####Instructions
-</u>
 This repository contains two R codes, structed as follows:
 
 1. Sets the working directory,
