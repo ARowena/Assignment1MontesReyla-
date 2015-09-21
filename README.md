@@ -34,5 +34,5 @@ The choosen data sets are: "Seatbelts" and "UKDriverDeaths" and their analysis w
 >R Studio Version 0.99.681 – © 2009-2015 RStudio, Inc.
 
 
-####Deadline for Submission:
+#####Deadline for Submission:
 2 October, 2015 12AM 
