@@ -23,9 +23,6 @@ This repository contains two R codes, structed as follows:
 
 The choosen data sets are: "Seatbelts" and "UKDriverDeaths" and their analysis was performed using the logic described above. 
 
-####Deadline for Submission:
-2 October, 2015 12AM 
-
 ####Software
 
 **Style Guide**
@@ -35,3 +32,7 @@ The choosen data sets are: "Seatbelts" and "UKDriverDeaths" and their analysis w
 >R version 3.2.2 R.app GUI 1.66 (6996 Mavericks build), S. Urbanek & H.-J. Bibiko, © R Foundation for Statistical Computing, 2014
 
 >R Studio Version 0.99.681 – © 2009-2015 RStudio, Inc.
+
+
+####Deadline for Submission:
+2 October, 2015 12AM 
