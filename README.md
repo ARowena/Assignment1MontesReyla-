@@ -1,4 +1,4 @@
-[<img src="https://www.hertie-school.org/uploads/pics/HSG_Logo_rgb_33c6f5.jpg" align="right" height="100" width ="100"/>](http://www.hertie-school.org/)
+[<img src="https://www.hertie-school.org/uploads/pics/HSG_Logo_rgb_33c6f5.jpg" align="right" height="140" width ="170"/>](http://www.hertie-school.org/)
 
 
 
@@ -22,6 +22,10 @@ The objective of this pair assignment is to:
 
 
 ####Software
-**Style Guide**
->Style guide: We use Hadley Wickham´s Style Guide from r-pkgs.had.co.nz/style.html.
 
+**Style Guide**
+>Style guide: Hadley Wickham´s Style Guide from r-pkgs.had.co.nz/style.html.
+
+**Software Used**
+>R version 3.2.2 R.app GUI 1.66 (6996 Mavericks build), S. Urbanek & H.-J. Bibiko, © R Foundation for Statistical Computing, 2014
+>R Studio Version 0.99.681 – © 2009-2015 RStudio, Inc.
