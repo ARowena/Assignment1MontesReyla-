@@ -1,3 +1,6 @@
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hertie_School_of_Governance_logo.svg/220px-Hertie_School_of_Governance_logo.svg.png" align="right" height="75" width ="75"/>](http://www.hertie-school.org/)
+
+
 #MPP-E1180: Introduction to Collaborative Social Science Data Analysis
 ###First Pair Assignment: Ana Cecilia Montes and Ayra Rowena Reyla 
 ####Introduction and Background Information
@@ -12,9 +15,6 @@ The objective of this pair assignment is to:
 
 
 ####Instructions
-
-
-
 
 
 
