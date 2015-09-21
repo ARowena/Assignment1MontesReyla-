@@ -14,7 +14,7 @@ The objective of this pair assignment is to:
 
 
 ####Instructions
-
+This repository contains two R codes, structed as follows
 
 
 
