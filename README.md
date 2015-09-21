@@ -28,4 +28,5 @@ The objective of this pair assignment is to:
 
 **Software Used**
 >R version 3.2.2 R.app GUI 1.66 (6996 Mavericks build), S. Urbanek & H.-J. Bibiko, © R Foundation for Statistical Computing, 2014
+
 >R Studio Version 0.99.681 – © 2009-2015 RStudio, Inc.
