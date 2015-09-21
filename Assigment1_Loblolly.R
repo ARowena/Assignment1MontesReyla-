@@ -6,8 +6,7 @@
 #############################################
 
 #1.  Set directory: Ana
-setwd('/Users/AnaCe/Dropbox/Hertie/CollaborativeDataAnalysis/R/Assigment/Assignment1MontesReyla')
-
+setwd('/Users/AnaCe/Dropbox/Hertie/CollaborativeDataAnalysis/R/Assigment/Assignment1MontesReyla/Assignment1MontesReyla-')
 # 2. Data set load and inspecction
 # Load the core data set called "Loblolly"
 data("Loblolly")
@@ -19,7 +18,10 @@ names(Loblolly)
 head(Loblolly)
 View(Loblolly)
 
-# 3. Descriptive Statistics
+# 3. Source each other's files
+source('CodeReyla1.R')
+
+# 4. Descriptive Statistics
 ## Historgram
 hist(Loblolly$height, xlab = "Height (fts)", main = "Histogram of Loblolly pine trees' height")
 hist(Loblolly$age, xlab = "Age (Years)", main= "Histogram of Loblolly pine trees' age") 
@@ -71,5 +73,5 @@ cor.test(Loblolly$height, Loblolly$age)
 library (ggplot2)
 ggplot2::ggplot(Loblolly, aes(age, height)) + geom_point() + geom_smooth() + theme_bw()
 
-g
-plot(Loblolly$Seeds, xlab="The batch seed source for the tree")
+
+#plot(Loblolly$Seeds, xlab="The batch seed source for the tree")
