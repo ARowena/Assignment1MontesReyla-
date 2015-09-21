@@ -1,4 +1,4 @@
-[<img src="https://www.hertie-school.org/uploads/pics/HSG_Logo_rgb_33c6f5.jpg" align="right" height="140" width ="170"/>](http://www.hertie-school.org/)
+[<img src="https://www.hertie-school.org/uploads/pics/HSG_Logo_rgb_33c6f5.jpg" align="right" height="140" width ="175"/>](http://www.hertie-school.org/)
 
 
 
