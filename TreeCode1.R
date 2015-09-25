@@ -6,7 +6,9 @@
 #################################################
 
 #1. Working directory
+#Ayra:
 #setwd('/Users/Ayra/Desktop/FirstPairAssignment')
+#Ana:
 setwd('/Users/AnaCe/Dropbox/Hertie/CollaborativeDataAnalysis/R/Assignment1MontesReyla-')
 
 #2. Choose data set 
