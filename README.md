@@ -15,7 +15,7 @@ The objective of this pair assignment is to:
 4. To develop an understand of new file structres
 
 ####Instructions
-This repository contains two R codes, structed as follows:
+This repository contains two R codes ("Assigment1_Loblolly.R" and "TreeCode1.R", structed as follows:
 
 1. Sets the working directory,
 2. Links  codes dynamically (only for file XXXX),
