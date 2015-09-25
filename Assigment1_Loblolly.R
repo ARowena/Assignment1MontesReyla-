@@ -6,7 +6,7 @@
 #############################################
 
 #1.  Set directory: Ana
-setwd('/Users/AnaCe/Dropbox/Hertie/CollaborativeDataAnalysis/R/Assigment/Assignment1MontesReyla/Assignment1MontesReyla-')
+setwd('/Users/AnaCe/Dropbox/Hertie/CollaborativeDataAnalysis/R/Assignment1MontesReyla-')
 # 2. Data set load and inspecction
 # Load the core data set called "Loblolly"
 data("Loblolly")

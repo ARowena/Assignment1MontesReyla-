@@ -6,7 +6,8 @@
 #################################################
 
 #1. Working directory
-setwd('/Users/Ayra/Desktop/FirstPairAssignment')
+#setwd('/Users/Ayra/Desktop/FirstPairAssignment')
+setwd('/Users/AnaCe/Dropbox/Hertie/CollaborativeDataAnalysis/R/Assignment1MontesReyla-')
 
 #2. Choose data set 
 ## See available R core data sets
