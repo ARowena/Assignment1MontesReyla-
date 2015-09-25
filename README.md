@@ -35,4 +35,4 @@ The choosen data sets are: "Loblolly" and "Trees" and their analysis was perform
 
 
 #####Deadline for Submission:
-2 October, 2015 12AM 
+**2 October, 2015 12AM** 
