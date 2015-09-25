@@ -19,7 +19,7 @@ head(Loblolly)
 View(Loblolly)
 
 # 3. Source each other's files
-source('CodeReyla1.R')
+source('TreeCode1.R')
 
 # 4. Descriptive Statistics
 ## Historgram
