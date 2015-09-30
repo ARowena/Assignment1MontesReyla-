@@ -1,0 +1,35 @@
+---
+title: "Tree Analisys"
+author: "Ana Cecilia Montes & Ayra Reyla"
+date: "2 october 2015"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+In this assisment, we analyse the characteristic of both Black Cherry Trees and Loblobly Pine Trees using two different R dataframes and R Studio. 
+
+Loblolly trees are a common pine specie in the Southern US. According to this data, loblolly pine tress has on average 32 fts (see Table 1). On the other hand, Prunus serotina, commonly called black cherry trees are also native in North America but they are on average two times bigger than Loblolly trees. Their hight on average is 76 fts (see Table 2).  
+
+###Table 1.Loblolly trees summary Statistics 
+```{r Loblolly, echo=FALSE}
+summary(Loblolly$height) 
+```
+###Table 2. Cherry trees summary Statistics 
+```{r trees, echo=FALSE}
+summary(trees$Height)
+```
+## Height Distribution
+
+```{r pressure, echo=FALSE}
+hist(Loblolly$height, 
+     xlab = "Height (fts)", 
+     main = "Histogram of Loblolly Pine Tree height")
+hist(trees$Height, 
+     xlab = "Height (ft)", 
+     main = 'Height of Black Cherry Trees')
+```
