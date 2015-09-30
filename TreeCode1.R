@@ -32,7 +32,6 @@ head(trees)
 
 #3. Descriptive Statistics
 
-
 #4. Histogram
 hist(trees$Girth, 
      xlab = "Girth (in)", 
