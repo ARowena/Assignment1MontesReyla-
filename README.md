@@ -18,9 +18,9 @@ The objective of this pair assignment is to:
 This repository contains two R codes ("Assigment1_Loblolly.R" and "TreeCode1.R", structed as follows:
 
 1. Sets the working directory,
-2. Links  codes dynamically (only for file XXXX),
+2. Links  codes dynamically (only for file "Assigment1_Loblolly.R"),
 3. Loads a R core Data Set, 
-4. Conducts Descrive statistics.
+4. Conducts descrive statistics.
 
 The choosen data sets are: "Loblolly" and "Trees" and their analysis was performed using the logic described above. 
 
@@ -33,7 +33,6 @@ The choosen data sets are: "Loblolly" and "Trees" and their analysis was perform
 >R version 3.2.2 R.app GUI 1.66 (6996 Mavericks build), S. Urbanek & H.-J. Bibiko, © R Foundation for Statistical Computing, 2014
 
 >R Studio Version 0.99.681 – © 2009-2015 RStudio, Inc.
-
 
 #####Deadline for Submission:
 **2 October, 2015 12AM** 
