@@ -25,7 +25,7 @@ source('TreeCode1.R')
 ## Historgram
 hist(Loblolly$height, xlab = "Height (fts)", main = "Histogram of Loblolly pine trees' height")
 hist(Loblolly$age, xlab = "Age (Years)", main= "Histogram of Loblolly pine trees' age") 
-## Means
+## Means   You can leave out the mean command and simply use the summary where you get all the basic descriptive statistics
 mean(Loblolly$height, na.rm = TRUE)
 mean (Loblolly$age, na.rm = TRUE)
 
