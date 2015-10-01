@@ -15,7 +15,7 @@ The objective of this pair assignment is to:
 4. To develop an understand of new file structres
 
 ####Instructions
-This repository contains two R codes "Assigment1_Loblolly.R" and "TreeCode1.R", structed as follows:
+This repository contains two R codes ("Assigment1_Loblolly.R" and "TreeCode1.R", structed as follows:
 
 1. Sets the working directory,
 2. Links  codes dynamically (only for file "Assigment1_Loblolly.R"),
@@ -23,8 +23,6 @@ This repository contains two R codes "Assigment1_Loblolly.R" and "TreeCode1.R", 
 4. Conducts descrive statistics.
 
 The choosen data sets are: "Loblolly" and "Trees" and their analysis was performed using the logic described above. 
-
-A PDF file under the name <i> "Trees Statitics Analysis Document" </i> condenses the desriptive analysis of both datasets
 
 ####Software
 
@@ -36,7 +34,5 @@ A PDF file under the name <i> "Trees Statitics Analysis Document" </i> condenses
 
 >R Studio Version 0.99.681 – © 2009-2015 RStudio, Inc.
 
-#####Submission date:
+#####Deadline for Submission:
 **2 October, 2015 12AM** 
-
-##### For any questions or doubts, please contact the contributors. 
