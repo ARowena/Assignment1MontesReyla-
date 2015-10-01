@@ -42,4 +42,11 @@ hist(trees$Girth,
      main = 'Girth of Black Cherry Trees')
 ```
 
+##Box Plots
+Box plots or whisker plots graphically ilsutrates the groups of numerical data through quartiles. The bottom and top of the box are always the first and third quartiles and the band inide the box is the second quartile or the median. 
 
+```{r pressure3, echo=FALSE}
+boxplot(trees$Girth, main = "% of Tree Girth Around the Median")
+boxplot(trees$Height, main = "% of Tree Height Around the Median")
+boxplot(trees$Volume, main = "% of Tree Volume Around the Median")
+```
