@@ -24,7 +24,7 @@ summary(Loblolly$height)
 summary(trees$Height)
 # Standard Deviation 
 ```
-## Height Distribution
+## Tree Height Distribution
 A major diference between Loblolly and Cherry is the height distribution. While, Lobloly trees height can range from 3 to 70 fts, for Cherry trees the height ranges from 60 to 90 fts.
 
 ```{r pressure, echo=FALSE}
