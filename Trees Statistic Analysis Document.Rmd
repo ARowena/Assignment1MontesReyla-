@@ -35,8 +35,6 @@ hist(trees$Height,
      xlab = "Height (ft)", 
      main = 'Height of Black Cherry Trees')
 ```
-
-<<<<<<< HEAD
 # Standard Deviation 
 ```{r pressure3, echo=FALSE}
 #Loblolly Trees Standard Deviation 
