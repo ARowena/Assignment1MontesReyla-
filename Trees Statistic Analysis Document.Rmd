@@ -50,3 +50,4 @@ boxplot(trees$Girth, main = "% of Tree Girth Around the Median")
 boxplot(trees$Height, main = "% of Tree Height Around the Median")
 boxplot(trees$Volume, main = "% of Tree Volume Around the Median")
 ```
+
