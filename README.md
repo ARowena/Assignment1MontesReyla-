@@ -24,7 +24,7 @@ This repository contains two R codes "Assigment1_Loblolly.R" and "TreeCode1.R", 
 
 The choosen data sets are: "Loblolly" and "Trees" and their analysis was performed using the logic described above. 
 
-A document file under the name <i> Trees Statitics Analysis Document </i> condenses the desriptive analysis of both datasets
+A PDF file under the name <i> "Trees Statitics Analysis Document" </i> condenses the desriptive analysis of both datasets
 
 ####Software
 
