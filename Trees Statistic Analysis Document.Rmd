@@ -23,7 +23,10 @@ summary(Loblolly$height)
 ```{r trees, echo=FALSE}
 summary(trees$Height)
 ```
+
 ## Height Distribution
+
+A major difference between Loblolly and Cherry trees is the height distribution. While the height of Loblolly trees can range from 30-70 ft, for Cherry trees it ranges from 50-90 ft. This means that the height for Loblolly trees has more variance.
 
 ```{r pressure, echo=FALSE}
 hist(Loblolly$height, 
@@ -51,3 +54,10 @@ boxplot(trees$Height, main = "% of Tree Height Around the Median")
 boxplot(trees$Volume, main = "% of Tree Volume Around the Median")
 ```
 
+# Standard Deviation 
+```{r pressure3, echo=FALSE}
+#Loblolly Trees Standard Deviation 
+sd(Loblolly$height)
+#Black Cherry Trees Standard Deviation 
+sd(trees$Height)
+```
