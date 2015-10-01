@@ -1,4 +1,4 @@
----
+ ---
 title: "Tree Analisys"
 author: "Ana Cecilia Montes & Ayra Reyla"
 date: "2 october 2015"
@@ -33,3 +33,13 @@ hist(trees$Height,
      xlab = "Height (ft)", 
      main = 'Height of Black Cherry Trees')
 ```
+
+## Girth Distribution
+
+```{r pressure2, echo=FALSE}
+hist(trees$Girth, 
+     xlab = "Girth (In)", 
+     main = 'Girth of Black Cherry Trees')
+```
+
+
