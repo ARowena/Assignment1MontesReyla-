@@ -36,5 +36,7 @@ A PDF file under the name <i> "Trees Statitics Analysis Document" </i> condenses
 
 >R Studio Version 0.99.681 – © 2009-2015 RStudio, Inc.
 
-#####Deadline for Submission:
+#####Submission date:
 **2 October, 2015 12AM** 
+
+##### For any questions or doubts, please contact the contributors. 
