@@ -4,17 +4,13 @@ author: "Ana Cecilia Montes & Ayra Reyla"
 date: "2 october 2015"
 output: pdf_document
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
 ## Introduction
-
-In this assisment, we analyse the characteristic of both Black Cherry Trees and Loblobly Pine Trees combining two different dataframes built-in  in R Studio. 
-
-  The first data frame cointans information about the growth of Loblolly trees. This specie is common in the Southern US. According to the data, loblolly pine tress has on average `r mean(Loblolly$height, na.rm = TRUE)` fts (see Table 1). On the other hand, Prunus serotina, commonly called black cherry trees are also native in North America but they are on average two times bigger than Loblolly trees. Their hight on average is `r mean(trees$Height, na.rm = TRUE) fts (see Table 2).  
-
+  In this assisment, we analyse the characteristic of both Black Cherry Trees and Loblobly Pine Trees combining two different dataframes built-in R Studio. 
+  The first data frame cointans information about the growth of Loblolly trees. This specie is common in the Southern US. According to the data, loblolly pine tress has on average `r mean(Loblolly$height, na.rm = TRUE)` fts (see Table 1). 
+  The second data frame  provides measurements of the girth, height and volume of black cherry trees, also native tree in North America. This specie are on average two times bigger than Loblolly trees. Their hight on average is `r mean(trees$Height, na.rm = TRUE) fts (see Table 2).  
 ###Table 1.Loblolly trees summary Statistics 
 ```{r Loblolly, echo=FALSE}
 summary(Loblolly$height)
@@ -24,33 +20,32 @@ summary(Loblolly$height)
 summary(trees$Height)
 ```
 ## Tree Height Distribution
-A major diference between Loblolly and Cherry is the height distribution. While, Lobloly trees height can range from 3 to 70 fts, for Cherry trees the height ranges from 60 to 90 fts. The variance of loblolly tree's height is `r var(Loblolly$height)` and a standard deviation of `r sd(Loblolly$height)`. On the other hand, The variance of Cherry tree's height is `r var(trees$Height)` and a standard deviation of `r sd(trees$Height)`
-
+  A major diference between Loblolly and Cherry is the height distribution. While, Lobloly trees height can range from 3 to 70 fts, for Cherry trees the height ranges from 60 to 90 fts. We observe that the variance of loblolly tree's is much higher than cherry trees. Lobloly tree's variance is equal to `r var(Loblolly$height)`, while for Cherry tree's height is `r var(trees$Height)`. Moreover, the standard deviation of the first is `r sd(Loblolly$height)`, while the standard deviation of second is `r sd(trees$Height)`. 
+  Moreover, We observe that Black Cherry Trees' height follows a normal distribution. This is not the case for Loblolly trees' height.
+###Graph 1. Histogram 
 ```{r pressure, echo=FALSE}
 hist(Loblolly$height, 
      xlab = "Height (fts)", 
-     main = "Histogram of Loblolly Pine Tree height")
+     main = "Graph 1a. Histogram of Loblolly Pine Tree height")
 hist(trees$Height, 
      xlab = "Height (ft)", 
-     main = 'Height of Black Cherry Trees')
+     main = 'Graph 1b. Height of Black Cherry Trees')
 ```
-We observe that Black Cherry Trees' height follows a normal distribution. This is not the case for Loblolly trees height.
 
 ##Box Plots
-Box plots or whisker plots graphically ilustrates the groups of numerical data through quartiles. The bottom and top of the box are always the first and third quartiles and the band inside the box is the second quartile or the median. 
+  Box plots or whisker plots graphically ilustrates the groups of numerical data through quartiles. The bottom and top of the box are always the first and third quartiles and the band inside the box is the second quartile or the median. The box plots shows similar results as before. Loblolly trees' height varies largerly comparing to cherry trees. Cherry trees height concentrates around the median.
 
-```{r pressure4, echo=FALSE}
-boxplot(trees$Height, main = "% of Cherry Tree Height Around the Median")
+```{r pressure2, echo=FALSE}
 boxplot(Loblolly$height, main = "% of Loblolly Tree Height Around the Median")
-boxplot(trees$Girth, main = "% of Tree Girth Around the Median")
-boxplot(trees$Volume, main = "% of Tree Volume Around the Median")
+boxplot(trees$Height, main = "% of Cherry Tree Height Around the Median")
 ```
 
-## Girth Distribution
-Another variable of interest is 
-
+## Height and age.
+  Older trees are observed to be taller. Graph 2 shows the relationship between Heigh and age for trees. We observe a progresssive heigh growth as the tree gets older with no evidence of stagnation in size after a certain age.
+  
+###Graph 2. Heigh and age reelationship
 ```{r pressure3, echo=FALSE}
-hist(trees$Girth, 
-     xlab = "Girth (In)", 
-     main = 'Girth of Black Cherry Trees')
+library (ggplot2)
+ggplot2::ggplot(Loblolly, aes(age, height)) + geom_point() + geom_smooth() + theme_bw()
 ```
+
