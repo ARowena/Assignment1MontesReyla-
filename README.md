@@ -36,4 +36,4 @@ Click [here](https://github.com/ARowena/Assignment1MontesReyla-/blob/master/Tree
 >R Studio Version 0.99.681 – © 2009-2015 RStudio, Inc.
 
 #####Date of Submission:
-**2 October, 2015 12AM** 
+2 October, 2015 12AM
