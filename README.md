@@ -1,4 +1,4 @@
-
+﻿
 [<img src="https://www.hertie-school.org/uploads/pics/HSG_Logo_rgb_33c6f5.jpg" align="right" height="135" width ="200"/>](http://www.hertie-school.org/)
 <i>
 #MPP-E1180: Introduction to Collaborative Social Science Data Analysis
@@ -15,14 +15,14 @@ The objective of this pair assignment is to:
 4. To develop an understand of new file structres
 
 ####Instructions
-This repository contains two R codes ("Assigment1_Loblolly.R" and "TreeCode1.R", structed as follows:
+This repository contains two R codes ("Assigment1_Loblolly.R" and "TreeCode1.R") for the analysis of two data sets "Loblolly" and "Trees". The structure of both R codes is the following:
 
 1. Sets the working directory,
 2. Links  codes dynamically (only for file "Assigment1_Loblolly.R"),
 3. Loads a R core Data Set, 
 4. Conducts descrive statistics.
 
-The choosen data sets are: "Loblolly" and "Trees" and their analysis was performed using the logic described above. 
+Finally a file called <i>"Trees_Statistic_Analysis_Document2" contains a descriptive statistic mixing both dataframes. Click [here](https://github.com/ARowena/Assignment1MontesReyla-/blob/master/Trees_Statistic_Analysis_Document2.pdf) to see the pdf version.
 
 ####Software
 
