@@ -22,7 +22,7 @@ This repository contains two R codes ("Assigment1_Loblolly.R" and "TreeCode1.R")
 3. Loads a R core Data Set, 
 4. Conducts descrive statistics.
 
-Finally a file called <i>"Trees_Statistic_Analysis_Document2"<i/> contains a descriptive statistic mixing both dataframes. Click [here](https://github.com/ARowena/Assignment1MontesReyla-/blob/master/Trees_Statistic_Analysis_Document2.pdf) to see the pdf version.
+Finally a file called <i>"Trees_Statistic_Analysis_Document2" <i/> contains a descriptive statistic mixing both dataframes. Click [here](https://github.com/ARowena/Assignment1MontesReyla-/blob/master/Trees_Statistic_Analysis_Document2.pdf) to see the pdf version.
 
 ####Software
 
@@ -34,5 +34,5 @@ Finally a file called <i>"Trees_Statistic_Analysis_Document2"<i/> contains a des
 
 >R Studio Version 0.99.681 – © 2009-2015 RStudio, Inc.
 
-#####Deadline for Submission:
+#####Date of Submission:
 **2 October, 2015 12AM** 
