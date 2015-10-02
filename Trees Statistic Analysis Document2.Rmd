@@ -41,7 +41,7 @@ boxplot(trees$Height, main = "% of Cherry Tree Height Around the Median")
 ```
 
 ## Height and age.
-  Older trees are observed to be taller. Graph 2 shows the relationship between Heigh and age for trees. We observe a progresssive heigh growth as the tree gets older with no evidence of stagnation in size after a certain age.
+  Older trees are observed to be taller. Graph 2 shows the relationship between heigh and age for trees. We observe a progresssive heigh growth as the tree gets older with no evidence of stagnation in size after a certain age.
   
 ###Graph 2. Heigh and age reelationship
 ```{r pressure3, echo=FALSE}
